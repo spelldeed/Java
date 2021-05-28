@@ -8,9 +8,9 @@ import java.util.Map;
 public class SQLconnect
 {
     String d[][] = new String[6][8];
-    static final String DB_URL = "jdbc:mysql://localhost/Timetables";
-    static final String USER = "Student123";
-    static final String PASS = "4483";
+    static final String DB_URL = "URL_TO_YOUR_DATABASE";
+    static final String USER = "STUDENT";
+    static final String PASS = "PASS";
     ArrayList<String> old_Professors = new ArrayList<String>();
     ArrayList<String> old_Batches = new ArrayList<String>();
     Map<String,Integer> old_courses = new HashMap<String,Integer>();
